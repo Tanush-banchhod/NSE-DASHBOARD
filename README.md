@@ -15,5 +15,30 @@ The Stock Dashboard is a Streamlit-based web application that allows users to an
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/stock-dashboard.git
+   git clone https://github.com/Tanush-banchhod/stock-dashboard.git
    cd stock-dashboard
+2. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+3. Run the streamlit app:
+   ```bash
+   streamlit run app.py
+##Usage
+
+Enter the stock ticker symbol in the sidebar.
+Select the start date and end date for the analysis.
+Navigate through the tabs to view pricing data, fundamental data, news articles, and sentiment analysis.
+
+##Requirements
+Python 3.x
+Streamlit
+pandas
+numpy
+yfinance
+plotly
+alpha_vantage
+stocknews
+pyChatGPT
+
+##Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
